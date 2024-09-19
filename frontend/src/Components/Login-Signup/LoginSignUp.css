@@ -1,0 +1,88 @@
+.input img{
+    height: 28px;
+    width: 28px;
+    position: relative;
+    top: 13px;
+}
+
+.input input{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    margin: 4px;
+    border: none;
+    font-size: 20px;
+}
+
+.input{
+    height: 40px;
+    width: 30vw; 
+    display: flex;
+    flex-direction: row; 
+    margin: 15px; 
+}
+
+.forgot-password{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    right: 9vw;
+}
+
+.forgot-password span{
+    margin-left: 4px;
+    color: rgb(0, 47, 255);
+}
+.forgot-password span:hover{
+    margin-left: 4px;
+    color: rgb(0, 47, 255);
+    cursor: pointer;
+}
+
+.header{
+    color: aqua;
+    font-size: 36px;
+}
+
+.container{
+    overflow: hidden;
+    background-color: white;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column ;
+    padding: 20px;
+    position: relative;
+    justify-content: space-between;
+    top: 20vh;
+    left: 30vw;
+    border-radius: 50px;
+}
+
+button{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 10vw;
+    border-radius: 50px;
+    background-color: blueviolet;
+    font: poppins;
+    font-size: 20px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.change span{
+    color: rgb(0, 47, 255);
+}
+
+.change span:hover{
+    cursor: pointer;
+}
